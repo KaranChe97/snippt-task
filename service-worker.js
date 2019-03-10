@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/KaranChe97/snippt-task/precache-manifest.d8f013b3a32557d80eeec0902d49105e.js"
+  "/snippt-task/precache-manifest.0576b64d8893c71d6b68e1ceeb9771c4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/KaranChe97/snippt-task/index.html", {
+workbox.routing.registerNavigationRoute("/snippt-task/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
